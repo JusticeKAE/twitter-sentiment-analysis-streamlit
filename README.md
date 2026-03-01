@@ -86,6 +86,11 @@ streamlit run app.py
 
 ---
 
+## 🙏 Acknowledgments
+
+- Huge thanks to [AstroCoder](https://www.youtube.com/@astrocoder.official) on YouTube for their excellent sentiment analysis tutorial that helped me get started with this project!
+
+
 ## 👨🏽‍💻 Author
 
 **Justice Ekuban**  
