@@ -81,6 +81,8 @@ streamlit run app.py
 ![Project Intro](screenshots/TSentiment1.png)  
 ![Model Training](screenshots/TSentiment1.png)
 ![Streamlit Interface](screenshots/TSentiment3.png)
+![Streamlit Upload Interface](screenshots/TSentimentUp4.png)
+![Streamlit Upload Interface2](screenshots/TSentimentUp5.png)
 
 ---
 
