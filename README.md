@@ -42,9 +42,16 @@ To overcome API limitations, the application was redesigned to:
 ## 📂 CSV Format
 
 ```csv
-tweet_text
+tweet
 "This is my first tweet text"
 "Another tweet example here"
+```
+
+If you collect tweets with TweetClaw, convert JSON, JSONL, or CSV exports into
+the upload format with:
+
+```bash
+python scripts/tweetclaw_to_tweet_csv.py tweetclaw-export.json tweets.csv
 ```
 
 ---
