@@ -73,10 +73,17 @@ To overcome the data fetching limitations while maintaining project functionalit
 ## 📋 Required CSV Format  
 
 ```csv
-tweet_text
+tweet
 "This is my first tweet text"
 "Another tweet example here"
 "Multiple tweets can be analyzed at once"
+```
+
+TweetClaw exports can be prepared for this CSV workflow without changing the
+Streamlit app:
+
+```bash
+python scripts/tweetclaw_to_tweet_csv.py tweetclaw-export.json tweets.csv
 ```
 
 ---
