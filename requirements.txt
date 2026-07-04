@@ -2,3 +2,5 @@ streamlit
 scikit-learn
 nltk
 ntscraper
+beautifulsoup4
+requests

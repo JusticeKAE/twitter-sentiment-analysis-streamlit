@@ -42,10 +42,13 @@ To overcome API limitations, the application was redesigned to:
 ## 📂 CSV Format
 
 ```csv
-tweet_text
+tweet
 "This is my first tweet text"
 "Another tweet example here"
 ```
+
+The uploaded CSV must use a `tweet` column, matching the column checked by
+`app.py`.
 
 ---
 
@@ -66,11 +69,18 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Optional Xquik Source
+
+Use Xquik server-side when you want fresh X/Twitter posts without reintroducing
+scraping or direct API dependencies in the Streamlit app. Keep `XQUIK_API_KEY`
+outside the repository, fetch posts on your server, export them to a CSV with a
+`tweet` column, and upload that CSV through the existing batch workflow.
+
 ---
 
 ## 📈 Future Improvements
 
-- Twitter API integration (if budget allows)  
+- Server-side X/Twitter data imports through a managed source such as Xquik
 - Support for JSON and Excel formats  
 - Deployment to cloud platform  
 
